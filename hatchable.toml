@@ -1,0 +1,13 @@
+name = "JanSahay AI"
+
+[auth]
+enabled = true
+providers = ["email"]
+
+[ai]
+required = true
+description = "Powers JanSahay AI's multilingual scheme guidance. Configure an available AI provider in Hatchable Setup."
+
+[db.tables.user_saved_schemes]
+read = "own"
+write = "own"
